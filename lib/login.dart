@@ -14,6 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
@@ -33,6 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
               const Text(
                 'LOGIN',
                 style: TextStyle(
+                  fontFamily: "Quintessential-Regular",
                   fontSize: 30.0,
                   fontWeight: FontWeight.bold,
                 ),
