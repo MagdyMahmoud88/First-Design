@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:new_job/messenger_design.dart';
+import 'package:new_job/user.dart';
 
+import 'bmi_calc.dart';
 import 'login.dart';
 
 void main() {
@@ -13,11 +16,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: BmiCalc(),
     );
   }
 }
